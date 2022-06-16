@@ -1,0 +1,130 @@
+body {
+  margin:0;
+  background-color: black;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.btn{
+  background-color: aqua;
+}
+button{
+  padding: 10px;
+  border: none;border-radius: 10px;
+  color:white;
+  background-color: black;
+  font-weight: 600;
+  margin: 5px;
+}
+button:hover{
+  background-color: lightgray;
+  color: black;
+  cursor: pointer;
+}
+.form{
+  background-color: #82807f;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+input{
+  border: none;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  width: 90%;
+  margin: 3px;
+}
+textarea{
+  width: 93%;
+  height: 100px;
+  resize: none;
+}
+textarea:focus{
+  outline: none;
+}
+input:focus{
+  outline: none;
+  box-shadow: 2px 3px 5px rgb(238, 238, 238);
+}
+.head{
+  background-color:#576C7A;
+  color: #E6E9EB;
+  text-align: center;
+  
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+.name{
+  font-weight: 600;
+}
+.headline{
+  font-weight: 600;
+}
+.main{
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.skill-edu{
+  background-color: #E6E9EB;
+  padding: 10px;
+  height:auto;
+}
+.text{
+  
+  font-size: 16px;
+}
+ .min-screen{
+  width: 60%;
+   margin-bottom: 5px;
+  }
+.edudetails{
+  margin: 0;
+}
+.right-col{
+  background-color: #FFFFFF;
+  color: #576C7A;
+  padding: 10px;
+  height: auto;
+}
+.exp-role{
+  display: flex;
+  align-items: center;
+  justify-content:left;
+  gap:25px;
+}
+.role-title{
+  color: #7e6bc4;
+  font-weight: 700;
+  font-size: 18px;
+}
+.role-year span{
+  color: brown;
+  font-weight: 700;
+}
+.contact{
+  max-width: 150px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
+.footer{
+  background-color: #fef0ff;
+  text-align: center;
+  
+}
+@media screen and (min-width: 700px){
+  body{
+    padding: 30px 150px 30px 150px;
+  }
+}
+
+@media screen and (min-width: 900px){
+  body{
+    padding: 30px 250px 30px 250px;
+  }
+}
